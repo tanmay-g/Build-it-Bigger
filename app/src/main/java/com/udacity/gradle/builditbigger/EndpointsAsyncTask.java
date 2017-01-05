@@ -17,7 +17,7 @@ import static com.udacity.gradle.jokedisplayer.MainActivity.jokeKey;
  * Created by Tanmay.godbole on 28-12-2016
  */
 
-class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
+public class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
     private static JokeAPI myApiService = null;
     private Context context;
 
